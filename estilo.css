@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+.foto{
+    border-radius: 50%;
+    width: 99px;
+    border: 1px solid rgb(206, 21, 21);
+    margin-left: 11px;
+    margin-top: 7px;
+    height: 120px;
+    
+}
+.div1{
+    display: flex;
+}
+body{
+    background-color: #FFFFFF;
+}
+.pai{
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 2px 0 3em #888;
+}
+#cont{
+    background-color: #19304F;
+    font-style: normal;
+    color: white;
+    width: 40vw;
+    height: 200vh;
+    align-items:center;
+    margin-bottom: 10px;
+    left: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+.perfil{
+    margin-left: 11px;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.perfil p{
+    width: 40vw;
+}
+.exper{
+    margin-top: 55px;
+    margin-top: 36px;
+    margin-left: 11px;
+    font-family: 'Roboto', sans-serif;
+}
+.exper li{
+    width: 40vw;
+}
+.educa{
+    margin-left: 11px;
+    margin-top: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+.educa li{
+    width: 40vw;
+}
+.proj{
+    margin-left: 11px;
+    margin-top: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+.proj a {
+    width: 40vw;
+}
+#conec {
+    margin-left: 9px;
+    font-family: 'Roboto', sans-serif;
+}
+#conec p {
+    border-bottom: 2px solid white;
+    width: 140px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+#conec h1{
+    text-align: center;
+}
+.nome{
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#pagina{
+    margin: 10px;
+}
+#img{
+    margin: 0 auto;
+    text-align: center;
+}
+#img a{
+    padding-left: 20px;
+}
+.link{
+    margin: 0 auto;
+    padding: 0;
+}
+.contatos{
+    flex-direction: column;
+    align-items:center;
+    left: 5%;
+    margin-left: 5px;
+    margin-top: 100px;
+    padding-left: 20%;
+    border-bottom: 2 solid white;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+@media (max-width: 795px){
+    .pai{
+        display: block;
+    }
+    #cont{
+        width: 98vw;
+    }
+    .contatos{
+        text-align: center;
+        margin-right: 17vw;
+    }
+    .perfil p {
+        width: 70%;
+    }
+}
